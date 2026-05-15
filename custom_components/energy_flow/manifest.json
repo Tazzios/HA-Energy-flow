@@ -1,0 +1,8 @@
+{
+  "domain": "energy_flow",
+  "name": "Energy Flow",
+  "version": "1.0.0",
+  "config_flow": true,
+  "requirements": [],
+  "codeowners": []
+}

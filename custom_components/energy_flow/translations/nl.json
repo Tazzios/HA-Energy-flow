@@ -1,0 +1,41 @@
+{
+  "title": "Energy flow",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuratie aanmaken",
+        "description": "Selecteer een vermogenssensor (W) of een energiesensor (kWh), samen met de prijssensor (EUR/kWh).",
+        "data": {
+          "solar_production": "Zon opwek energiemeter",
+          "grid_export": "Net export energiemeter",
+          "battery_charge": "Batterij laad energiemeter",
+          "battery_discharge": "Batterij ontladen"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "title": "Configuratie wijzigen",
+        "description": "Selecteer een vermogenssensor (W) of een energiesensor (kWh), samen met de prijssensor (EUR/kWh).",
+        "data": {
+          "solar_production": "Zon opwek energiemeter",
+          "grid_export": "Net export energiemeter",
+          "battery_charge": "Batterij laad energiemeter",
+          "battery_discharge": "Batterij ontladen"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "solar_to_home": { "name": "Zon_naar huis" },
+      "solar_to_grid": { "name": "Zon naar net" },
+      "solar_to_battery": { "name": "Zon naar_batterij" },
+      "grid_to_battery": { "name": "Net naar batterij" },
+      "battery_to_home": { "name": "Batterij naar huis" },
+      "battery_to_grid": { "name": "Batterij naar net" }
+    }
+  }
+}

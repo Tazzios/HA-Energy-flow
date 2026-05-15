@@ -1,0 +1,26 @@
+{
+  "selector": {
+    "solar_production": {
+      "name": "Solar production"
+    },
+    "grid_export": {
+      "name": "Grid export"
+    },
+    "battery_charge": {
+      "name": "Battery charging"
+    },
+    "battery_discharge": {
+      "name": "Battery discharging"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "solar_to_home": { "name": "Solar → home" },
+      "solar_to_grid": { "name": "Solar → grid" },
+      "solar_to_battery": { "name": "Solar → battery" },
+      "grid_to_battery": { "name": "Grid → battery" },
+      "battery_to_home": { "name": "Battery → home" },
+      "battery_to_grid": { "name": "Battery → grid" }
+    }
+  }
+}
