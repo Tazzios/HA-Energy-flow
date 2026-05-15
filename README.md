@@ -15,7 +15,7 @@ Deze integratie splitst de energiestromen in huis op in:
 * Batterij → grid
 
 Per minuut wordt het aantal kWh bepaald.
-In combinatie met de integratie [dynamic_energy_cost](https://github.com/martinarva/dynamic_energy_cost?utm_source=chatgpt.com) kun je dit vervolgens omzetten naar euro’s.
+In combinatie met deze integratie [dynamic_energy_cost](https://github.com/martinarva/dynamic_energy_cost?utm_source=chatgpt.com) kun je dit vervolgens omzetten naar euro’s (15min,dag,maand,jaar).
 
 ## Waarom?
 Bij het berekenen van de opbrengst in euro’s is het vaak persoonlijk (of landelijk bepaald) hoeveel waarde je toekent aan:
@@ -25,7 +25,10 @@ Bij het berekenen van de opbrengst in euro’s is het vaak persoonlijk (of lande
 Met deze integratie kun je verschillende prijzen koppelen aan de verschillende energiestromen.
 
 ## Code
-* De code gaat ervan uit dat je **alle** zonnepaneel- en batterij-energy meters toevoegt. Doe je dit niet, dan kunnen er vreemde resultaten ontstaan.
+* De code gaat ervan uit dat je **alle** zonnepanelen- en batterij-energy meters toevoegt. Doe je dit niet, dan kunnen er vreemde resultaten ontstaan.
 * Zonne-energie wordt altijd eerst in huis gebruikt.
+
+Voorbeeld van de configuratie
+<img width="547" height="935" alt="image" src="https://github.com/user-attachments/assets/73d50f59-9a06-4977-897b-3c9befb1892d" />
 
 
